@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/name_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/roboto"
+        android:padding="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/yellow_star"
+        android:padding="8dp"
+        android:paddingTop="16dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+
+        <TextView
+            android:id="@+id/bio_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBIO\n\nHi!\n\nI'm Rishika Swaraj.\n\nI'm currently pursuing B.Tech majoring in Information Technology from KIIT University.\n\nI'm a Cybersecurity Developer.\n\nI'm a Flutter and Native developer.\n\nI'm a competitive coder.\n\nI'm a Blogger.\n\nI'm currently learning Kotlin and trying my hands on app development.\n\nI love to learn new technologies.\n\nI'm improving daily.\n\nI want to collaborate more in open source projects.\n\nBesides this my hobbies are:-\n\n i) Photography.\n\n ii) Budget Travelling.\n\n iii) Reflective Writing.\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbout this app\n\n\nThis is a basic About Me app built in Kotlin.\n\nIn this app Scrollview and Imageview is used.\n\nThis app is made using Linear Layout.\n\n " />
+    </ScrollView>
+</LinearLayout>
