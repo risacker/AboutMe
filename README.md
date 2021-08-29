@@ -1,5 +1,5 @@
 # AboutMe
-This is AboutMe app built in Kotlin.
+This is a AboutMe app built in Kotlin.
 
 
 # Output
