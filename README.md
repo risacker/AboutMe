@@ -1,5 +1,5 @@
 # AboutMe
-This is a AboutMe app built in Kotlin.
+This is a AboutMe app built in Kotlin. Scrollview and Imageview is implemented in this app.
 
 
 # Output
